@@ -1,0 +1,68 @@
+@font-face{
+    font-family:IranSans;
+        src:url('../fonts/iransans.ttf'); 
+}
+body *{
+    font-family: IranSans;
+    font-size:16px;
+}
+.sidebar{
+    background-color:#555;
+    color:#fff;
+    min-height: 900px;
+    text-align: center;
+}
+.sidebar h3{
+    font-size:30px;
+    font-weight: bold;
+}
+.sidebar .logo{
+    width:200px;
+    height:150px;
+    
+}
+.sidebar ul{
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 50px; 
+}
+.sidebar ul li {
+    list-style-type: none;
+    padding: 7px 0px 7px 0px;
+    border-bottom: 1px solid #aaa; 
+}
+.sidebar ul li a{
+    color: #fff; 
+}
+.main .header{
+    padding: 10px;
+    font-size: 30px;
+    color:#555;
+    font-weight: bold;
+}
+.main .header .user{
+    float: left;
+    font-size: 16px;
+    font-weight: normal; 
+}
+.main .content{
+    padding: 10px;
+    border-top: 1px solid #eee;
+    padding-bottom: 50px;
+}
+.main .footer{
+    padding: 10px;
+    background-color: #eee;
+    border-top: 1px solid #eee;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color:#999;
+}
+form .row{
+    padding-bottom: 10px;
+}
+.titr_pishkhan{
+    text-align: center;
+    size: 60px;
+}

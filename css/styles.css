@@ -1,0 +1,84 @@
+@font-face{
+    src:url(../fonts/Yekan.woff2) format('woff2');
+    font-family: yekan;
+}
+@font-face{
+    src:url(../fonts/IranNastaliq.ttf);
+    font-family: nastaliq;
+}
+body{
+    width:100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+.navbar-brand h3{
+    font-family: nastaliq;
+    font-size: 40px;
+    color: rgb(113, 32, 218);
+}
+.header{
+    background: url(../img/header.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header h1{
+    font-family: nastaliq;
+    font-size: 60px;
+}
+.text-justify{
+    text-align:justify;
+    direction: rtl;
+}
+.light-blue{
+    background-color: rgb(220, 241, 250);
+}
+.card{
+    transition: transform 0.5s ease-in-out;
+}
+.card:hover{
+    transform: translate(0,5px);
+}
+.rtl{
+    direction: rtl;
+}
+.bg-purple{
+    background: #d6b9f6;
+}
+*{
+    box-sizing: border-box;
+}
+/*
+body{
+    font-family:yekan ;
+    margin:75px;
+}
+
+#bgshow{
+    position: relative;
+    min-height: 530px;
+    background: url(../img/bgShow.jpg);
+    width:100%;
+}
+.bgShowMain{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgb(50 60 111/ 20%);
+}
+.navbar{
+    background: #fff;
+    opacity: 95%;
+}
+.card-body>p{
+    text-align: justify;
+}
+.card-body>i{
+    font-size:35px;
+}
+#comments img{
+    margin-top: -85px;
+}
+*/
